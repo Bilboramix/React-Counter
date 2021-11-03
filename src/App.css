@@ -1,1 +1,89 @@
-/* Other rules */
+* {
+  box-sizing: border-box;
+}
+header {
+  border-bottom: solid 1px gray;
+  padding-bottom: 20px;
+  background-color: rgb(211, 211, 211);
+}
+header span {
+  font-family: "Montserrat", sans-serif;
+  font-size: 48px;
+  margin-left: 65px;
+}
+header i {
+  margin-top: 10px;
+  font-size: 80px;
+  color: #5c48d3;
+  margin-left: 111px;
+}
+
+.counter {
+  display: flex;
+}
+.reset {
+  display: block;
+}
+
+main {
+  display: flex;
+  width: 450px;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  margin-top: 250px;
+}
+
+main i {
+  font-size: 52px;
+}
+
+.counter button {
+  border: none;
+  background-color: #fff;
+}
+
+.counter span {
+  display: flex;
+  background-color: #5c48d3;
+  height: 150px;
+  width: 150px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-size: 96px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.reset {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 25px;
+  border: none;
+  background-color: #5c48d3;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 38px;
+  border-radius: 20px;
+  width: 150px;
+  height: 40px;
+}
+
+footer {
+  display: flex;
+  position: absolute;
+  background-color: rgb(211, 211, 211);
+  bottom: 0;
+  width: 100%;
+  justify-content: center;
+  font-size: 25px;
+  margin-bottom: 5px;
+}
+
+strong {
+  font-weight: bold;
+}
